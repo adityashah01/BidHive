@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BidHive Nepal — Second-Hand Auction Marketplace
 
 BidHive Nepal is a real-time online second-hand auction marketplace built for the Nepali market. It features anti-sniping bid extensions, automatic proxy bidding, eSewa and Khalti QR code top-ups with administrator approval, and live Pusher notifications.
@@ -66,3 +67,9 @@ npm run start
 - **Admin Moderation Panel**: Approve/reject listings, verify wallet top-up receipts, manage users, and inspect transaction ledgers.
 - **Interactive Location Maps**: Integrated Leaflet map picker for item listings in Kathmandu Valley, Pokhara, and Nepal regions.
 - **Anti-Sniping Engine**: Automatic 2-minute auction extension if a bid is placed in the final minutes.
+=======
+# BidHive
+
+Bidding Platform for Second Hand Products.
+This is the colaboratoy project for 6th semester minor project.
+>>>>>>> 6a1a5e7c39204498ede0386b62b0366fd1981607
