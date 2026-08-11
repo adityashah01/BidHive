@@ -32,7 +32,3 @@ firebase-admin.json
 *-firebase-adminsdk-*.json
 *.pem
 *.key
-
-.env
-.env.local
-.env.*.local
