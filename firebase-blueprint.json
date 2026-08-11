@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Notification": {
+      "title": "Notification",
+      "description": "Real-time notification for user",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "type": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "type", "message", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/user_notifications/{userId}/notifications/{notificationId}": {
+      "schema": "Notification",
+      "description": "User specific real-time notifications"
+    }
+  }
+}

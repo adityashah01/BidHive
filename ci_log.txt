@@ -1,0 +1,6 @@
+npm error code ENOTEMPTY
+npm error syscall rmdir
+npm error path /app/applet/node_modules/@types/node
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rmdir '/app/applet/node_modules/@types/node'
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-02T16_18_08_310Z-debug-0.log

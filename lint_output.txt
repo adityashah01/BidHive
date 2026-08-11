@@ -1,0 +1,18 @@
+
+> react-example@0.0.0 lint
+> tsc --noEmit
+
+server.ts(2661,83): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2677,21): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2700,45): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2713,93): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2722,13): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2739,13): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2780,27): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2796,13): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2807,25): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2818,13): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2845,61): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2860,13): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2888,61): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+server.ts(2903,13): error TS2339: Property 'dbUser' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.

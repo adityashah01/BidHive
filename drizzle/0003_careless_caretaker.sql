@@ -1,0 +1,1 @@
+DROP TABLE "wallet_topups" CASCADE;

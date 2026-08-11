@@ -1,0 +1,8 @@
+{
+  "name": "BidHive Nepal",
+  "description": "A real-time second-hand auction marketplace for Nepal, featuring eSewa & Khalti QR payment top-ups, anti-sniping bid extensions, and automatic proxy bidding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

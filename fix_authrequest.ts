@@ -1,0 +1,12 @@
+import fs from 'fs';
+let content = fs.readFileSync('server.ts', 'utf-8');
+content = content.replace(/app\.post\('\/api\/wallet\/topups', requireAuth, async \(req, res\) => {/g, "app.post('/api/wallet/topups', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.get\('\/api\/wallet\/topups', requireAuth, async \(req, res\) => {/g, "app.get('/api/wallet/topups', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.post\('\/api\/wallet\/topups\/:requestId\/cancel', requireAuth, async \(req, res\) => {/g, "app.post('/api/wallet/topups/:requestId/cancel', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.get\('\/api\/admin\/topups', requireAuth, async \(req, res\) => {/g, "app.get('/api/admin/topups', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.post\('\/api\/admin\/topups\/:requestId\/approve', requireAuth, async \(req, res\) => {/g, "app.post('/api/admin/topups/:requestId/approve', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.post\('\/api\/admin\/topups\/:requestId\/reject', requireAuth, async \(req, res\) => {/g, "app.post('/api/admin/topups/:requestId/reject', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.post\('\/api\/admin\/wallets\/:userId\/credit', requireAuth, async \(req, res\) => {/g, "app.post('/api/admin/wallets/:userId/credit', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.post\('\/api\/admin\/wallets\/:userId\/debit', requireAuth, async \(req, res\) => {/g, "app.post('/api/admin/wallets/:userId/debit', requireAuth, async (req: AuthRequest, res) => {");
+content = content.replace(/app\.get\('\/api\/admin\/wallets\/:userId\/transactions', requireAuth, async \(req, res\) => {/g, "app.get('/api/admin/wallets/:userId/transactions', requireAuth, async (req: AuthRequest, res) => {");
+fs.writeFileSync('server.ts', content);
